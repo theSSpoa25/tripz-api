@@ -18,7 +18,7 @@ const fakeData = [
   },
 ]
 
-console.log('3123')
+console.log('test')
 
 app.get('/api/fake', (req, res) => res.send(fakeData))
 
