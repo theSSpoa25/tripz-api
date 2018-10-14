@@ -18,6 +18,8 @@ const fakeData = [
   },
 ]
 
+console.log('3123')
+
 app.get('/api/fake', (req, res) => res.send(fakeData))
 
 app.listen(port, () => console.log(`Test ${port}!`))
